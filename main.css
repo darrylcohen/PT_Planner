@@ -1,0 +1,113 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  width:80%;
+  margin: 0 auto;
+
+
+}
+.jumpStation {
+  color:black;
+  /*font-size:120%;*/
+}
+.container {
+  min-width:800px;
+
+  text-align: center;
+  margin: 0 auto;
+}
+header{
+  background-color: black;
+  color: white;
+  /*margin:0;*/
+}
+header h3 {
+  margin: 0;
+  font-size:110%;
+  padding-bottom:10px;
+}
+nav {
+
+  background-color: black;
+  height:60px;
+
+}
+.trainContainer {
+  display:flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  justify-content: center;
+  border:1px solid black;
+
+  background-color: lightGray;
+  color: red;
+}
+
+.line{
+  width: 15%;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  font-weight: bold;
+  text-align:center;
+  margin: 5px;
+  border:2px solid black;
+}
+.stations {
+   width: 90%;
+   margin-bottom: 5px;
+   font-size:130%;
+}
+.stationList {
+  width:40%;
+}
+.midContainer {
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+  background-color: #E6E8E9;
+}
+button {
+  font-size: 120%;
+  background-color: lightGray;
+
+  margin: 10px
+
+}
+.bottomContainer {
+  clear:both;
+  text-align: left;
+  color: red;
+  padding-left: 10px;
+  margin: 0 auto;
+  background-color: #E6E8E9;
+  padding-bottom:10px;
+
+}
+.bottomContainer h2 {
+  text-align: center;
+  margin:0;
+  padding-top:10px;
+
+}
+.route {
+  font-size: 120%;
+  margin: 20px;
+  border:1px solid black;
+  height: 200px;
+  padding:15px;
+    background-color: white;
+}
+footer {
+  background-color: black;
+  color:white;
+  font-size: 120%;
+
+}
+footer p {
+  margin: 0;
+  height: 50px;
+  line-height:50px;
+
+}

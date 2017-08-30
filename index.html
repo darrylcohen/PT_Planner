@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1> PT PLANNER </h1>
+        <h3>  Know Where You Are Going  </h3>
+
+      </header>
+
+      <nav>
+        <button id="plotRoute">Plot Route</button>
+        <button id="clear">Clear</button>
+      </nav>
+
+      <div class="midContainer">
+        <div class='stationList'>
+          <h2> Train From </h2>
+          <div  id = "FromTrainContainer">
+          </div>
+        </div>
+        <div class='stationList'>
+            <h2> Train To </h2>
+            <div id = "ToTrainContainer">
+            </div>
+        </div>
+      </div>
+
+      <div class="bottomContainer">
+        <h2>Stations to Travel Through. Change at <spam class="jumpStation">Black</spam> stations</h2>
+        <div class="route" id="route">
+          <!-- <p id="route"></p> -->
+        </div>
+        <div class="output" id="total">
+        </div>
+      </div>
+
+      <footer>
+        <p>Darryl Cohen 2017 &#169</p>
+      </footer>
+    </div>
+
+
+    <script src="main.js" type="text/javascript">
+
+    </script>
+  </body>
+</html>
