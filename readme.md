@@ -3,14 +3,18 @@ Darryl Cohen
 
 ### **Welcome to _PT Planner_**
 
-Some points of note
-- PTPlanner was an exercise to transverse 2 lines that cross
-- I created the logic to transverse from point A to point B across any network
+<img src=http://www.smh.com.au/cqstatic/12z7v7/metro1.png width="300">
 
-Listen to me speaking about my logic
+The Problem
+This was an exercise in class at General Assembly. We had to plot the stations you would go through
+when traveling from Origin to Destination
 
-<embed src="transverseVideo.mov" autostart="false" height="100" width="300" />
+My Solution
+The logic is to proceed on the trainline until you get to the destination.
+If the current station is a change over
+  1. Find a line that will get to the destination and proceed
+  2. If there is no line then proceed on current line
 
 [Please visit my web site](https://www.darrylcohen.com.au)
 
-<a href="https://www.darrylcohen.com.au"> <img src=https://github.com/darrylcohen/hello-world/blob/master/web.jpeg width="300"></a>
+<a href="https://www.darrylcohen.com.au"> <img src=https://i.imgur.com/kbAnu4b.jpg width="300"></a>
