@@ -5,12 +5,14 @@ Darryl Cohen
 
 <img src=http://www.smh.com.au/cqstatic/12z7v7/metro1.png width="300">
 
-The Problem
+## The Requirements
+
 This was an exercise in class at General Assembly. We had to plot the stations you would go through
 when traveling from Origin to Destination
 
-My Solution
-The logic is to proceed on the trainline until you get to the destination.
+## My Solution
+
+The logic is to proceed on the train line until you get to the destination.
 If the current station is a change over
   1. Find a line that will get to the destination and proceed
   2. If there is no line then proceed on current line
